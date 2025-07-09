@@ -1,0 +1,2500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"6e928093-6c32-46ae-a778-f5b467c57e30",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>com.ramirez.tests.sample</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-07-07 10:13:52 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:11]"><span>[1:11]</span> <span>Listar usuarios</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">com/ramirez/tests/sample.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Karate Backend Test</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:11]</span>
+                <span class="scenario-name">Listar usuarios</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>5464</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def time = function(){ return new Date().toLocaleTimeString(&#39;en-US&#39;, { hour12: false, hour: &#39;2-digit&#39;, minute: &#39;2-digit&#39;, second: &#39;2-digit&#39; }).replace(/:/g, &#39;&#39;); }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def randomName = &#39;User_Karate_&#39; + time()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">244</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def randomEmail = randomName + &#39;@karateqa.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatedUserId = null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1096</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">10:13:47.584 request:
+1 &gt; GET https://serverest.dev/usuarios
+1 &gt; Host: serverest.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+10:13:48.414 response time in milliseconds: 827
+1 &lt; 200
+1 &lt; access-control-allow-origin: *
+1 &lt; x-dns-prefetch-control: off
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+1 &lt; x-download-options: noopen
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-xss-protection: 1; mode=block
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; x-cloud-trace-context: a16bf814f8ad16d31bae83c90ba610ce;o=1
+1 &lt; date: Mon, 07 Jul 2025 15:13:48 GMT
+1 &lt; server: Google Frontend
+1 &lt; Content-Length: 11954
+{
+    &quot;quantidade&quot;: 54,
+    &quot;usuarios&quot;: [
+        {
+            &quot;nome&quot;: &quot;Mrs. Erin Klocko&quot;,
+            &quot;email&quot;: &quot;Waylon_Mann35@gmail.com&quot;,
+            &quot;password&quot;: &quot;k5X2AnAq86uKlMp&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;07aSxkaWzorE96j4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+            &quot;email&quot;: &quot;fulano@qa.com&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;0uxuPY0cbmQhpEz1&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Ann Reed&quot;,
+            &quot;email&quot;: &quot;toddkelley@gmail.com&quot;,
+            &quot;password&quot;: &quot;pwd123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;1ne7yDkUIVs4JPG2&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;rdorigo&quot;,
+            &quot;email&quot;: &quot;tt@teste.com&quot;,
+            &quot;password&quot;: &quot;abcs1234&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;2X4H8rEGr3hWsVYo&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Candace Weimann III&quot;,
+            &quot;email&quot;: &quot;candaceweimanniii@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;3NXqOt2YXLysKO5G&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Miss Tabitha Medhurst&quot;,
+            &quot;email&quot;: &quot;Ida80@hotmail.com&quot;,
+            &quot;password&quot;: &quot;dheZncw7KZnsyYs&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;4W64GqTLWfVku39p&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User_Karate_101028&quot;,
+            &quot;email&quot;: &quot;User_Karate_101028@karateqa.com&quot;,
+            &quot;password&quot;: &quot;teste@r&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;4wAaAkvZ33CiEebf&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Essie Okuneva-Paucek&quot;,
+            &quot;email&quot;: &quot;Turner_Larkin@gmail.com&quot;,
+            &quot;password&quot;: &quot;dwJUJwG81nwCks6&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;4xHTrKEWQ8r1x3CV&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Bridget Macejkovic DVM&quot;,
+            &quot;email&quot;: &quot;bridgetmacejkovicdvm@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;5390TY8fh1JegSeC&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Teste&quot;,
+            &quot;email&quot;: &quot;ijizt@testeemail.com&quot;,
+            &quot;password&quot;: &quot;6789&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;5KmjHPpK2ER6FcEa&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Ivan Volkman&quot;,
+            &quot;email&quot;: &quot;Adelia37@yahoo.com&quot;,
+            &quot;password&quot;: &quot;BdsBtilM9h6uGkw&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;8JvCozV4CAYw6tHt&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Natalia Bonfim&quot;,
+            &quot;email&quot;: &quot;nattibonfim20@gmail.com&quot;,
+            &quot;password&quot;: &quot;nattibonfim94&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;994OOQl6lkf3GZT0&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;User_Karate_095049&quot;,
+            &quot;email&quot;: &quot;User_Karate_095049@karateqa.com&quot;,
+            &quot;password&quot;: &quot;teste@r&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;9ga50SLMHPMe49Fy&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Darrin Emard&quot;,
+            &quot;email&quot;: &quot;Herbert_Emard@gmail.com&quot;,
+            &quot;password&quot;: &quot;83mbbqDHBAK5iAk&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;AOFTl4SF7rx0dMMm&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Dewey Hand&quot;,
+            &quot;email&quot;: &quot;Hadley.Russel44@yahoo.com&quot;,
+            &quot;password&quot;: &quot;tf2eQeIQESaJ64O&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;BRCaw7z67yrHW58D&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Phil Marvin&quot;,
+            &quot;email&quot;: &quot;philmarvin@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;BZgbG1beP7WHTwd4&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Raul Boyle&quot;,
+            &quot;email&quot;: &quot;Justine31@yahoo.com&quot;,
+            &quot;password&quot;: &quot;HXxNeVHz0XXHqa3&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;CLRWA8WyuV1IM5JX&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Marlene Franey-Bartoletti&quot;,
+            &quot;email&quot;: &quot;Alexis.Donnelly24@hotmail.com&quot;,
+            &quot;password&quot;: &quot;k9hTeDfWZyApDWX&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ErMCeI6ziZcD6BzC&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Colleen Mann&quot;,
+            &quot;email&quot;: &quot;colleenmann@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Fm7U8fKumf5EOJwZ&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;April Dietrich&quot;,
+            &quot;email&quot;: &quot;Brando8@yahoo.com&quot;,
+            &quot;password&quot;: &quot;jzEzwMaAvNAtVVm&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;GVY6P4zDryDCU9Sz&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Thelma Kuhn&quot;,
+            &quot;email&quot;: &quot;Dorian57@yahoo.com&quot;,
+            &quot;password&quot;: &quot;FSRsIUYcMlugvM9&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Gcpa0TyqNMGWdUDx&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Norene.Romaguera-Koelpin86&quot;,
+            &quot;email&quot;: &quot;Janelle42@gmail.com&quot;,
+            &quot;password&quot;: &quot;949789759&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;IsBFtOZXuqHzESRI&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Rufus Gottlieb DVM&quot;,
+            &quot;email&quot;: &quot;Juwan_Ebert93@yahoo.com&quot;,
+            &quot;password&quot;: &quot;aXbwVAvDvtnVvzp&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Js6mR12ODyPuI6lD&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Teste&quot;,
+            &quot;email&quot;: &quot;ioocn@testeemail.com&quot;,
+            &quot;password&quot;: &quot;6789&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;OkGU7BTbFmuJLhaL&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Ms. Melinda Kulas MD&quot;,
+            &quot;email&quot;: &quot;Golda_Schmeler@hotmail.com&quot;,
+            &quot;password&quot;: &quot;9VSEhTHF1YpSWQ_&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;PbpF0UuPD3awlcRp&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Nico&quot;,
+            &quot;email&quot;: &quot;Hailey73@yahoo.com&quot;,
+            &quot;password&quot;: &quot;L5iWSo6CLpta49f&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;PyOv4HBkQGKuzyqo&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Teste&quot;,
+            &quot;email&quot;: &quot;taitv@testeemail.com&quot;,
+            &quot;password&quot;: &quot;6789&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;QAUQs6dbMQcQscvM&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Natalia Bonfim&quot;,
+            &quot;email&quot;: &quot;nattibonfim94@gmail.com&quot;,
+            &quot;password&quot;: &quot;nattibonfim94&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;Qnq5sr1XQf3JF6My&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Stacey Haley&quot;,
+            &quot;email&quot;: &quot;james89@gmail.com&quot;,
+            &quot;password&quot;: &quot;pwd123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;SlBjskty68R8e5XM&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Margarita Turcotte IV&quot;,
+            &quot;email&quot;: &quot;Madisyn.Kuhic@yahoo.com&quot;,
+            &quot;password&quot;: &quot;ysrh26LfyIUbs1b&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;SvUVVqXUPuig7Jwa&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;William QA&quot;,
+            &quot;email&quot;: &quot;william@qa.com.br&quot;,
+            &quot;password&quot;: &quot;testuser&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;WCo70UdVLjOQPxEW&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Vitor Carrasco&quot;,
+            &quot;email&quot;: &quot;vitorfcarrasco@gmail.com&quot;,
+            &quot;password&quot;: &quot;123456&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;XTGwgc1ewdF2YDMD&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Lindsay.Harris&quot;,
+            &quot;email&quot;: &quot;Alejandra_Jones34@yahoo.com&quot;,
+            &quot;password&quot;: &quot;365292913&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;YEIqbr4CoaMQB4aY&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Ms. Winston Boyle&quot;,
+            &quot;email&quot;: &quot;ms.winstonboyle@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ZCxJDq1DlUYjquR6&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Bernard Balistreri&quot;,
+            &quot;email&quot;: &quot;Joana_OReilly80@gmail.com&quot;,
+            &quot;password&quot;: &quot;tgRO9WoioO4ZMsX&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;aHF6PKecl2uOZ4ZA&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+            &quot;email&quot;: &quot;beltrano@qa.com.br&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ci4ljGSmEfaAnkuw&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Karina&quot;,
+            &quot;email&quot;: &quot;iluminada.mayer@gmail.com&quot;,
+            &quot;password&quot;: &quot;l7k1faecae&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;cnylaoUbsk85TptE&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Stephen Garcia&quot;,
+            &quot;email&quot;: &quot;andrew50@gmail.com&quot;,
+            &quot;password&quot;: &quot;pwd123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;e09iEYIlzEmn8rmg&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Gladys Konopelski&quot;,
+            &quot;email&quot;: &quot;gladyskonopelski@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;fBebLeKTzvequFH1&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Dale Gutmann-Green&quot;,
+            &quot;email&quot;: &quot;Danyka30@hotmail.com&quot;,
+            &quot;password&quot;: &quot;_xQqxf9olrgEXfQ&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;fjBhBYkyRMLBURSL&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Usuario Teste&quot;,
+            &quot;email&quot;: &quot;dnqum@testeemail.com&quot;,
+            &quot;password&quot;: &quot;6789&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;gzzwfFV58ZOs9LQy&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Blake Schumm&quot;,
+            &quot;email&quot;: &quot;Vernie.Boyer@yahoo.com&quot;,
+            &quot;password&quot;: &quot;QjY2Ma1GagDgWcD&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;jJGVsCY9adkU7xni&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Wilbur Hilll&quot;,
+            &quot;email&quot;: &quot;Heber.Kunze38@hotmail.com&quot;,
+            &quot;password&quot;: &quot;1MlCNvkWB2hVgn_&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;jfmBB9r46qXBFd7B&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Chuck&quot;,
+            &quot;email&quot;: &quot;oscar.weissnat@hotmail.com&quot;,
+            &quot;password&quot;: &quot;zzbtwqznr&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;kB9UjvjmGXlSwDns&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Miss Terri Wilkinson&quot;,
+            &quot;email&quot;: &quot;Margaretta43@yahoo.com&quot;,
+            &quot;password&quot;: &quot;6UPEPLLl79czRnj&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;manfZ2hmuQHHNmrJ&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Dimitrios&quot;,
+            &quot;email&quot;: &quot;dimitrios.goring@example.com&quot;,
+            &quot;password&quot;: &quot;happy2&quot;,
+            &quot;administrador&quot;: &quot;false&quot;,
+            &quot;_id&quot;: &quot;oic0rTDFkBpWjQ1Y&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+            &quot;email&quot;: &quot;beltrano02@qa.com.br&quot;,
+            &quot;password&quot;: &quot;teste&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;prghufWJagWvdJYl&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Roland Mertz&quot;,
+            &quot;email&quot;: &quot;Domenic.Oberbrunner83@gmail.com&quot;,
+            &quot;password&quot;: &quot;DWEocO1Vm_4T1A2&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;ptATDUC1BJRP695w&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Justin Gleason&quot;,
+            &quot;email&quot;: &quot;Natalia.Adams57@yahoo.com&quot;,
+            &quot;password&quot;: &quot;8dAro9OW2y3behJ&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;stJJrDfTUlAS274O&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Mr. Raul Sporer&quot;,
+            &quot;email&quot;: &quot;Wilson2@yahoo.com&quot;,
+            &quot;password&quot;: &quot;VPxzCnimxBvlgJT&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;stiAkndDMO5ftwch&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Jeanne Gerlach&quot;,
+            &quot;email&quot;: &quot;dr.tracyflatley@test.com&quot;,
+            &quot;password&quot;: &quot;Test;123&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;w7TG7mYQ8GalBK0e&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Michael Brown&quot;,
+            &quot;email&quot;: &quot;Travon.Casper@gmail.com&quot;,
+            &quot;password&quot;: &quot;KrWIKxRrUdkstNt&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;w89vSQsBq50RYQ2f&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Alexis Collier&quot;,
+            &quot;email&quot;: &quot;Hildegard_Koch@gmail.com&quot;,
+            &quot;password&quot;: &quot;X1AN8BxzZbSSbKo&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;xMc5a7CLPy8SsblY&quot;
+        },
+        {
+            &quot;nome&quot;: &quot;Robyn Okuneva&quot;,
+            &quot;email&quot;: &quot;Linnea_Graham@gmail.com&quot;,
+            &quot;password&quot;: &quot;a4_4UqnKXMxer6M&quot;,
+            &quot;administrador&quot;: &quot;true&quot;,
+            &quot;_id&quot;: &quot;zKQTOXI57oIQHUxm&quot;
+        }
+    ]
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Listar Usuarios:&#39;, response.usuarios</span>
+      </div>
+    </div>
+    <div class="time-cell passed">41</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">10:13:48.488 [print] Listar Usuarios: [
+  {
+    &quot;nome&quot;: &quot;Mrs. Erin Klocko&quot;,
+    &quot;email&quot;: &quot;Waylon_Mann35@gmail.com&quot;,
+    &quot;password&quot;: &quot;k5X2AnAq86uKlMp&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;07aSxkaWzorE96j4&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+    &quot;email&quot;: &quot;fulano@qa.com&quot;,
+    &quot;password&quot;: &quot;teste&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;0uxuPY0cbmQhpEz1&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Ann Reed&quot;,
+    &quot;email&quot;: &quot;toddkelley@gmail.com&quot;,
+    &quot;password&quot;: &quot;pwd123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;1ne7yDkUIVs4JPG2&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;rdorigo&quot;,
+    &quot;email&quot;: &quot;tt@teste.com&quot;,
+    &quot;password&quot;: &quot;abcs1234&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;2X4H8rEGr3hWsVYo&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Candace Weimann III&quot;,
+    &quot;email&quot;: &quot;candaceweimanniii@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;3NXqOt2YXLysKO5G&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Miss Tabitha Medhurst&quot;,
+    &quot;email&quot;: &quot;Ida80@hotmail.com&quot;,
+    &quot;password&quot;: &quot;dheZncw7KZnsyYs&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;4W64GqTLWfVku39p&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;User_Karate_101028&quot;,
+    &quot;email&quot;: &quot;User_Karate_101028@karateqa.com&quot;,
+    &quot;password&quot;: &quot;teste@r&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;4wAaAkvZ33CiEebf&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Essie Okuneva-Paucek&quot;,
+    &quot;email&quot;: &quot;Turner_Larkin@gmail.com&quot;,
+    &quot;password&quot;: &quot;dwJUJwG81nwCks6&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;4xHTrKEWQ8r1x3CV&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Bridget Macejkovic DVM&quot;,
+    &quot;email&quot;: &quot;bridgetmacejkovicdvm@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;5390TY8fh1JegSeC&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Usuario Teste&quot;,
+    &quot;email&quot;: &quot;ijizt@testeemail.com&quot;,
+    &quot;password&quot;: &quot;6789&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;5KmjHPpK2ER6FcEa&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Ivan Volkman&quot;,
+    &quot;email&quot;: &quot;Adelia37@yahoo.com&quot;,
+    &quot;password&quot;: &quot;BdsBtilM9h6uGkw&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;8JvCozV4CAYw6tHt&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Natalia Bonfim&quot;,
+    &quot;email&quot;: &quot;nattibonfim20@gmail.com&quot;,
+    &quot;password&quot;: &quot;nattibonfim94&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;994OOQl6lkf3GZT0&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;User_Karate_095049&quot;,
+    &quot;email&quot;: &quot;User_Karate_095049@karateqa.com&quot;,
+    &quot;password&quot;: &quot;teste@r&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;9ga50SLMHPMe49Fy&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Darrin Emard&quot;,
+    &quot;email&quot;: &quot;Herbert_Emard@gmail.com&quot;,
+    &quot;password&quot;: &quot;83mbbqDHBAK5iAk&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;AOFTl4SF7rx0dMMm&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Dewey Hand&quot;,
+    &quot;email&quot;: &quot;Hadley.Russel44@yahoo.com&quot;,
+    &quot;password&quot;: &quot;tf2eQeIQESaJ64O&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;BRCaw7z67yrHW58D&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Phil Marvin&quot;,
+    &quot;email&quot;: &quot;philmarvin@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;BZgbG1beP7WHTwd4&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Raul Boyle&quot;,
+    &quot;email&quot;: &quot;Justine31@yahoo.com&quot;,
+    &quot;password&quot;: &quot;HXxNeVHz0XXHqa3&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;CLRWA8WyuV1IM5JX&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Marlene Franey-Bartoletti&quot;,
+    &quot;email&quot;: &quot;Alexis.Donnelly24@hotmail.com&quot;,
+    &quot;password&quot;: &quot;k9hTeDfWZyApDWX&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;ErMCeI6ziZcD6BzC&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Colleen Mann&quot;,
+    &quot;email&quot;: &quot;colleenmann@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;Fm7U8fKumf5EOJwZ&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;April Dietrich&quot;,
+    &quot;email&quot;: &quot;Brando8@yahoo.com&quot;,
+    &quot;password&quot;: &quot;jzEzwMaAvNAtVVm&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;GVY6P4zDryDCU9Sz&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Thelma Kuhn&quot;,
+    &quot;email&quot;: &quot;Dorian57@yahoo.com&quot;,
+    &quot;password&quot;: &quot;FSRsIUYcMlugvM9&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;Gcpa0TyqNMGWdUDx&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Norene.Romaguera-Koelpin86&quot;,
+    &quot;email&quot;: &quot;Janelle42@gmail.com&quot;,
+    &quot;password&quot;: &quot;949789759&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;IsBFtOZXuqHzESRI&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Rufus Gottlieb DVM&quot;,
+    &quot;email&quot;: &quot;Juwan_Ebert93@yahoo.com&quot;,
+    &quot;password&quot;: &quot;aXbwVAvDvtnVvzp&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;Js6mR12ODyPuI6lD&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Usuario Teste&quot;,
+    &quot;email&quot;: &quot;ioocn@testeemail.com&quot;,
+    &quot;password&quot;: &quot;6789&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;OkGU7BTbFmuJLhaL&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Ms. Melinda Kulas MD&quot;,
+    &quot;email&quot;: &quot;Golda_Schmeler@hotmail.com&quot;,
+    &quot;password&quot;: &quot;9VSEhTHF1YpSWQ_&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;PbpF0UuPD3awlcRp&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Nico&quot;,
+    &quot;email&quot;: &quot;Hailey73@yahoo.com&quot;,
+    &quot;password&quot;: &quot;L5iWSo6CLpta49f&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;PyOv4HBkQGKuzyqo&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Usuario Teste&quot;,
+    &quot;email&quot;: &quot;taitv@testeemail.com&quot;,
+    &quot;password&quot;: &quot;6789&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;QAUQs6dbMQcQscvM&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Natalia Bonfim&quot;,
+    &quot;email&quot;: &quot;nattibonfim94@gmail.com&quot;,
+    &quot;password&quot;: &quot;nattibonfim94&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;Qnq5sr1XQf3JF6My&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Stacey Haley&quot;,
+    &quot;email&quot;: &quot;james89@gmail.com&quot;,
+    &quot;password&quot;: &quot;pwd123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;SlBjskty68R8e5XM&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Margarita Turcotte IV&quot;,
+    &quot;email&quot;: &quot;Madisyn.Kuhic@yahoo.com&quot;,
+    &quot;password&quot;: &quot;ysrh26LfyIUbs1b&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;SvUVVqXUPuig7Jwa&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;William QA&quot;,
+    &quot;email&quot;: &quot;william@qa.com.br&quot;,
+    &quot;password&quot;: &quot;testuser&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;WCo70UdVLjOQPxEW&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Vitor Carrasco&quot;,
+    &quot;email&quot;: &quot;vitorfcarrasco@gmail.com&quot;,
+    &quot;password&quot;: &quot;123456&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;XTGwgc1ewdF2YDMD&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Lindsay.Harris&quot;,
+    &quot;email&quot;: &quot;Alejandra_Jones34@yahoo.com&quot;,
+    &quot;password&quot;: &quot;365292913&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;YEIqbr4CoaMQB4aY&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Ms. Winston Boyle&quot;,
+    &quot;email&quot;: &quot;ms.winstonboyle@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;ZCxJDq1DlUYjquR6&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Bernard Balistreri&quot;,
+    &quot;email&quot;: &quot;Joana_OReilly80@gmail.com&quot;,
+    &quot;password&quot;: &quot;tgRO9WoioO4ZMsX&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;aHF6PKecl2uOZ4ZA&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+    &quot;email&quot;: &quot;beltrano@qa.com.br&quot;,
+    &quot;password&quot;: &quot;teste&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;ci4ljGSmEfaAnkuw&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Karina&quot;,
+    &quot;email&quot;: &quot;iluminada.mayer@gmail.com&quot;,
+    &quot;password&quot;: &quot;l7k1faecae&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;cnylaoUbsk85TptE&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Stephen Garcia&quot;,
+    &quot;email&quot;: &quot;andrew50@gmail.com&quot;,
+    &quot;password&quot;: &quot;pwd123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;e09iEYIlzEmn8rmg&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Gladys Konopelski&quot;,
+    &quot;email&quot;: &quot;gladyskonopelski@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;fBebLeKTzvequFH1&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Dale Gutmann-Green&quot;,
+    &quot;email&quot;: &quot;Danyka30@hotmail.com&quot;,
+    &quot;password&quot;: &quot;_xQqxf9olrgEXfQ&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;fjBhBYkyRMLBURSL&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Usuario Teste&quot;,
+    &quot;email&quot;: &quot;dnqum@testeemail.com&quot;,
+    &quot;password&quot;: &quot;6789&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;gzzwfFV58ZOs9LQy&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Blake Schumm&quot;,
+    &quot;email&quot;: &quot;Vernie.Boyer@yahoo.com&quot;,
+    &quot;password&quot;: &quot;QjY2Ma1GagDgWcD&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;jJGVsCY9adkU7xni&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Wilbur Hilll&quot;,
+    &quot;email&quot;: &quot;Heber.Kunze38@hotmail.com&quot;,
+    &quot;password&quot;: &quot;1MlCNvkWB2hVgn_&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;jfmBB9r46qXBFd7B&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Chuck&quot;,
+    &quot;email&quot;: &quot;oscar.weissnat@hotmail.com&quot;,
+    &quot;password&quot;: &quot;zzbtwqznr&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;kB9UjvjmGXlSwDns&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Miss Terri Wilkinson&quot;,
+    &quot;email&quot;: &quot;Margaretta43@yahoo.com&quot;,
+    &quot;password&quot;: &quot;6UPEPLLl79czRnj&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;manfZ2hmuQHHNmrJ&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Dimitrios&quot;,
+    &quot;email&quot;: &quot;dimitrios.goring@example.com&quot;,
+    &quot;password&quot;: &quot;happy2&quot;,
+    &quot;administrador&quot;: &quot;false&quot;,
+    &quot;_id&quot;: &quot;oic0rTDFkBpWjQ1Y&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Fulano da Silva&quot;,
+    &quot;email&quot;: &quot;beltrano02@qa.com.br&quot;,
+    &quot;password&quot;: &quot;teste&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;prghufWJagWvdJYl&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Roland Mertz&quot;,
+    &quot;email&quot;: &quot;Domenic.Oberbrunner83@gmail.com&quot;,
+    &quot;password&quot;: &quot;DWEocO1Vm_4T1A2&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;ptATDUC1BJRP695w&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Justin Gleason&quot;,
+    &quot;email&quot;: &quot;Natalia.Adams57@yahoo.com&quot;,
+    &quot;password&quot;: &quot;8dAro9OW2y3behJ&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;stJJrDfTUlAS274O&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Mr. Raul Sporer&quot;,
+    &quot;email&quot;: &quot;Wilson2@yahoo.com&quot;,
+    &quot;password&quot;: &quot;VPxzCnimxBvlgJT&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;stiAkndDMO5ftwch&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Jeanne Gerlach&quot;,
+    &quot;email&quot;: &quot;dr.tracyflatley@test.com&quot;,
+    &quot;password&quot;: &quot;Test;123&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;w7TG7mYQ8GalBK0e&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Michael Brown&quot;,
+    &quot;email&quot;: &quot;Travon.Casper@gmail.com&quot;,
+    &quot;password&quot;: &quot;KrWIKxRrUdkstNt&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;w89vSQsBq50RYQ2f&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Alexis Collier&quot;,
+    &quot;email&quot;: &quot;Hildegard_Koch@gmail.com&quot;,
+    &quot;password&quot;: &quot;X1AN8BxzZbSSbKo&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;xMc5a7CLPy8SsblY&quot;
+  },
+  {
+    &quot;nome&quot;: &quot;Robyn Okuneva&quot;,
+    &quot;email&quot;: &quot;Linnea_Graham@gmail.com&quot;,
+    &quot;password&quot;: &quot;a4_4UqnKXMxer6M&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;zKQTOXI57oIQHUxm&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.usuarios[*].nome contains &#39;Fulano da Silva&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">37</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Registrar usuario</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.21">{
+    &quot;nome&quot;: &quot;#(randomName)&quot;,
+    &quot;email&quot;: &quot;#(randomEmail)&quot;,
+    &quot;password&quot;: &quot;teste@r&quot;,
+    &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">652</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">10:13:48.575 request:
+2 &gt; POST https://serverest.dev/usuarios
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 115
+2 &gt; Host: serverest.dev
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;User_Karate_101347&quot;,&quot;email&quot;:&quot;User_Karate_101347@karateqa.com&quot;,&quot;password&quot;:&quot;teste@r&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+10:13:49.176 response time in milliseconds: 599
+2 &lt; 201
+2 &lt; access-control-allow-origin: *
+2 &lt; x-dns-prefetch-control: off
+2 &lt; x-frame-options: SAMEORIGIN
+2 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+2 &lt; x-download-options: noopen
+2 &lt; x-content-type-options: nosniff
+2 &lt; x-xss-protection: 1; mode=block
+2 &lt; content-type: application/json; charset=utf-8
+2 &lt; x-cloud-trace-context: f88051e19ee5542de3fbb7ef8b3cae47
+2 &lt; date: Mon, 07 Jul 2025 15:13:48 GMT
+2 &lt; server: Google Frontend
+2 &lt; Content-Length: 82
+{
+    &quot;message&quot;: &quot;Cadastro realizado com sucesso&quot;,
+    &quot;_id&quot;: &quot;2o6y3f2Ou55ZRxi5&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Cadastro realizado com sucesso&#39;, _id: &#39;#string&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userId = response._id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;userId after registration:&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">10:13:49.193 [print] userId after registration: 2o6y3f2Ou55ZRxi5 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Registrar usuario con email existente</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.39">{
+    &quot;nome&quot;: &quot;#(randomName)&quot;,
+    &quot;email&quot;: &quot;#(randomEmail)&quot;,
+    &quot;password&quot;: &quot;teste@r&quot;,
+    &quot;administrador&quot;: &quot;true&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">597</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.48">10:13:49.200 request:
+3 &gt; POST https://serverest.dev/usuarios
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Content-Length: 115
+3 &gt; Host: serverest.dev
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;User_Karate_101347&quot;,&quot;email&quot;:&quot;User_Karate_101347@karateqa.com&quot;,&quot;password&quot;:&quot;teste@r&quot;,&quot;administrador&quot;:&quot;true&quot;}
+
+10:13:49.792 response time in milliseconds: 589
+3 &lt; 400
+3 &lt; access-control-allow-origin: *
+3 &lt; x-dns-prefetch-control: off
+3 &lt; x-frame-options: SAMEORIGIN
+3 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+3 &lt; x-download-options: noopen
+3 &lt; x-content-type-options: nosniff
+3 &lt; x-xss-protection: 1; mode=block
+3 &lt; content-type: application/json; charset=utf-8
+3 &lt; x-cloud-trace-context: 5375326a24437560c15faad4ee2c78a8
+3 &lt; date: Mon, 07 Jul 2025 15:13:49 GMT
+3 &lt; server: Google Frontend
+3 &lt; Content-Length: 53
+{
+    &quot;message&quot;: &quot;Este email já está sendo usado&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.49">
+      <div class="step-ref passed">49</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Este email já está sendo usado&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Buscar usuario por ID  --&gt; Usario encontrado/validado</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">10</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">504</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.54">10:13:49.806 request:
+4 &gt; GET https://serverest.dev/usuarios/2o6y3f2Ou55ZRxi5
+4 &gt; Host: serverest.dev
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+4 &gt; Accept-Encoding: gzip,deflate
+
+
+10:13:50.304 response time in milliseconds: 495
+4 &lt; 200
+4 &lt; access-control-allow-origin: *
+4 &lt; x-dns-prefetch-control: off
+4 &lt; x-frame-options: SAMEORIGIN
+4 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+4 &lt; x-download-options: noopen
+4 &lt; x-content-type-options: nosniff
+4 &lt; x-xss-protection: 1; mode=block
+4 &lt; content-type: application/json; charset=utf-8
+4 &lt; x-cloud-trace-context: 79cec0904afca43e777e26f41288aeff
+4 &lt; date: Mon, 07 Jul 2025 15:13:50 GMT
+4 &lt; server: Google Frontend
+4 &lt; Content-Length: 171
+{
+    &quot;nome&quot;: &quot;User_Karate_101347&quot;,
+    &quot;email&quot;: &quot;User_Karate_101347@karateqa.com&quot;,
+    &quot;password&quot;: &quot;teste@r&quot;,
+    &quot;administrador&quot;: &quot;true&quot;,
+    &quot;_id&quot;: &quot;2o6y3f2Ou55ZRxi5&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Lista Usuario:&#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.56">10:13:50.311 [print] Lista Usuario: {
+  &quot;nome&quot;: &quot;User_Karate_101347&quot;,
+  &quot;email&quot;: &quot;User_Karate_101347@karateqa.com&quot;,
+  &quot;password&quot;: &quot;teste@r&quot;,
+  &quot;administrador&quot;: &quot;true&quot;,
+  &quot;_id&quot;: &quot;2o6y3f2Ou55ZRxi5&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { _id: &#39;#(userId)&#39;, nome: &#39;#(randomName)&#39;, email: &#39;#(randomEmail)&#39;, &quot;password&quot;: &quot;teste@r&quot;, &quot;administrador&quot;: &quot;true&quot;,}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Buscar usuario por ID  --&gt; Usario no encontrado</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.61">
+      <div class="step-ref passed">61</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios/manfZ2hmuQHHNmra&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref passed">62</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">602</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.62">10:13:50.323 request:
+5 &gt; GET https://serverest.dev/usuarios/manfZ2hmuQHHNmra
+5 &gt; Host: serverest.dev
+5 &gt; Connection: Keep-Alive
+5 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+5 &gt; Accept-Encoding: gzip,deflate
+
+
+10:13:50.917 response time in milliseconds: 592
+5 &lt; 400
+5 &lt; access-control-allow-origin: *
+5 &lt; x-dns-prefetch-control: off
+5 &lt; x-frame-options: SAMEORIGIN
+5 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+5 &lt; x-download-options: noopen
+5 &lt; x-content-type-options: nosniff
+5 &lt; x-xss-protection: 1; mode=block
+5 &lt; content-type: application/json; charset=utf-8
+5 &lt; x-cloud-trace-context: 4460e81bc4804d0c1fea4e355afcfaa4
+5 &lt; date: Mon, 07 Jul 2025 15:13:50 GMT
+5 &lt; server: Google Frontend
+5 &lt; Content-Length: 45
+{
+    &quot;message&quot;: &quot;Usuário não encontrado&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref passed">63</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.64">
+      <div class="step-ref passed">64</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Lista Usuario:&#39;, response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.64">10:13:50.925 [print] Lista Usuario: {
+  &quot;message&quot;: &quot;Usuário não encontrado&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.65">
+      <div class="step-ref passed">65</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Usuário não encontrado&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Actualizar usuario</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.69">
+      <div class="step-ref passed">69</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.70">
+      <div class="step-ref passed">70</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatedName = &#39;Usuario_Actualizado_&#39; + randomName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def updatedEmail = &#39;actualizado_&#39; + randomEmail</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.72">{
+   &quot;nome&quot;: &quot;#(updatedName)&quot;,
+    &quot;email&quot;: &quot;#(updatedEmail)&quot;,
+    &quot;password&quot;: &quot;@ctualizacion&quot;,
+    &quot;administrador&quot;: &quot;false&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.81">
+      <div class="step-ref passed">81</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method PUT</span>
+      </div>
+    </div>
+    <div class="time-cell passed">592</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.81">10:13:50.946 request:
+6 &gt; PUT https://serverest.dev/usuarios/2o6y3f2Ou55ZRxi5
+6 &gt; Content-Type: application/json; charset=UTF-8
+6 &gt; Content-Length: 154
+6 &gt; Host: serverest.dev
+6 &gt; Connection: Keep-Alive
+6 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+6 &gt; Accept-Encoding: gzip,deflate
+{&quot;nome&quot;:&quot;Usuario_Actualizado_User_Karate_101347&quot;,&quot;email&quot;:&quot;actualizado_User_Karate_101347@karateqa.com&quot;,&quot;password&quot;:&quot;@ctualizacion&quot;,&quot;administrador&quot;:&quot;false&quot;}
+
+10:13:51.532 response time in milliseconds: 583
+6 &lt; 200
+6 &lt; access-control-allow-origin: *
+6 &lt; x-dns-prefetch-control: off
+6 &lt; x-frame-options: SAMEORIGIN
+6 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+6 &lt; x-download-options: noopen
+6 &lt; x-content-type-options: nosniff
+6 &lt; x-xss-protection: 1; mode=block
+6 &lt; content-type: application/json; charset=utf-8
+6 &lt; x-cloud-trace-context: 89811ef08a273a136c3ec3934b371fbe
+6 &lt; date: Mon, 07 Jul 2025 15:13:51 GMT
+6 &lt; server: Google Frontend
+6 &lt; Content-Length: 50
+{
+    &quot;message&quot;: &quot;Registro alterado com sucesso&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.82">
+      <div class="step-ref passed">82</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Registro alterado com sucesso&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Eliminar usuario</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.87">
+      <div class="step-ref passed">87</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.88">
+      <div class="step-ref passed">88</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method DELETE</span>
+      </div>
+    </div>
+    <div class="time-cell passed">501</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.88">10:13:51.542 request:
+7 &gt; DELETE https://serverest.dev/usuarios/2o6y3f2Ou55ZRxi5
+7 &gt; Host: serverest.dev
+7 &gt; Connection: Keep-Alive
+7 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+7 &gt; Accept-Encoding: gzip,deflate
+
+
+10:13:52.037 response time in milliseconds: 493
+7 &lt; 200
+7 &lt; access-control-allow-origin: *
+7 &lt; x-dns-prefetch-control: off
+7 &lt; x-frame-options: SAMEORIGIN
+7 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+7 &lt; x-download-options: noopen
+7 &lt; x-content-type-options: nosniff
+7 &lt; x-xss-protection: 1; mode=block
+7 &lt; content-type: application/json; charset=utf-8
+7 &lt; x-cloud-trace-context: ebd7208faefdb43ac36d381239a8f6f5
+7 &lt; date: Mon, 07 Jul 2025 15:13:51 GMT
+7 &lt; server: Google Frontend
+7 &lt; Content-Length: 51
+{
+    &quot;message&quot;: &quot;Registro excluído com sucesso&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.89">
+      <div class="step-ref passed">89</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.90">
+      <div class="step-ref passed">90</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Registro excluído com sucesso&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Escenario: Verificamos usuario eliminado</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.94">
+      <div class="step-ref passed">94</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/usuarios&#39;, userId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.95">
+      <div class="step-ref passed">95</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method DELETE</span>
+      </div>
+    </div>
+    <div class="time-cell passed">514</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.95">10:13:52.047 request:
+8 &gt; DELETE https://serverest.dev/usuarios/2o6y3f2Ou55ZRxi5
+8 &gt; Host: serverest.dev
+8 &gt; Connection: Keep-Alive
+8 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+8 &gt; Accept-Encoding: gzip,deflate
+
+
+10:13:52.555 response time in milliseconds: 505
+8 &lt; 200
+8 &lt; access-control-allow-origin: *
+8 &lt; x-dns-prefetch-control: off
+8 &lt; x-frame-options: SAMEORIGIN
+8 &lt; strict-transport-security: max-age=15552000; includeSubDomains
+8 &lt; x-download-options: noopen
+8 &lt; x-content-type-options: nosniff
+8 &lt; x-xss-protection: 1; mode=block
+8 &lt; content-type: application/json; charset=utf-8
+8 &lt; x-cloud-trace-context: 460aef3fc06f85bb7abf4abb0adb1cf8
+8 &lt; date: Mon, 07 Jul 2025 15:13:52 GMT
+8 &lt; server: Google Frontend
+8 &lt; Content-Length: 46
+{
+    &quot;message&quot;: &quot;Nenhum registro excluído&quot;
+}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.96">
+      <div class="step-ref passed">96</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.97">
+      <div class="step-ref passed">97</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == { message: &#39;Nenhum registro excluído&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
